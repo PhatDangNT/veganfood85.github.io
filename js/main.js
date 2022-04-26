@@ -1,3 +1,8 @@
+// Xu ly loader:
+function loader() {
+    document.querySelector(".loader-container").classList.add("fade-out");
+}
+
 // Xu ly khi click vao menu-bars button thi hien thi menu:
 const menuBarsBtn = document.querySelector(".menu-bars");
 const navList = document.querySelector(".nav-list");
@@ -278,10 +283,7 @@ function element(totalPages, page) {
 }
 element(totalPages, 5);
 
-// Xu ly loader:
-function loader() {
-    document.querySelector(".loader-container").classList.add("fade-out");
-}
+
 
 
 
